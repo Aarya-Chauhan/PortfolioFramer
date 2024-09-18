@@ -1,5 +1,5 @@
 import Photo from '@/components/Photo';
-import Socials from '@/components/Socials';
+import Socials from '@/public/Socials';
 import {Button} from '@/components/ui/button'
 import {FiDownload} from "react-icons/fi"
 
