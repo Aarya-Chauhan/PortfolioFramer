@@ -1,8 +1,9 @@
 import Photo from "@/components/Photo";
-import Socials from "@/public/Socials";
+
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 import Stats from "@/components/Stats";
+import Socials from "@/components/Socials";
 
 export default function Home() {
   return (
@@ -20,14 +21,16 @@ export default function Home() {
               eum?
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8 mb-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2"
-              >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
+              <a target="_blank" href="https://drive.google.com/file/d/1J_jyLX9z3gw8POCIT3yO8j97S0Rkjiwu/view?usp=sharing">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2"
+                >
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </Button>
+              </a>
               <div className="mb-5 xl:mb-0">
                 <Socials
                   containerStyles="flex gap-6 "
