@@ -24,12 +24,12 @@ const stats = [
 
 const Stats = () => {
   return (
-    <section className="pt-4 pb-12 xl:pb-0 xl:pt-0">
-      <div className="container mx-auto">
-        <div className="flex flex-wrap gap-6 max-w-[80vw] max-auto xl:max-w-none">
+    <section className=" xl:pb-0 mb-2 xl:pt-0">
+      <div className="container ml-0 ">
+        <div className="flex flex-wrap gap-6 max-w-[80vw] xl:max-w-none justify-start items-start pl-0 xl:pl-0">
             {stats.map((item, index)=>{
-                return(<div className="flex-1 flex gap-4 items-center justify-center xl:justify-start" key={index}>
-                    <CountUp end={item.num} duration={5} delay={2} className="text-4xl xl:text-6xl font-extrabold"/>
+                return(<div className="flex-1 flex gap-2 items-start justify-start xl:justify-start xl:items-start" key={index}>
+                    <CountUp end={item.num} duration={5} delay={2} className="text-3xl xl:text-4xl font-extrabold"/>
                     <p className={`${item.text.length<15? "max-w-[100px]" : "max-w-[150px]"} leading-snug text-white/80`}>{item.text}</p>
                 </div>
                 
