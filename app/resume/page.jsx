@@ -1,8 +1,9 @@
 "use client";
-
+//adding icons
 import {FaHtml5,FaCss3,FaJs,FaReact,FaFigma,FaNodeJs} from'react-icons/fa';
 import {SiTailwindcss,SiNextdotjs} from'react-icons/si';
 
+//about info
 const about={
   title: 'About Me',
   description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis autem minima laborum veniam Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore.',
@@ -26,6 +27,8 @@ const about={
   ],
 };
 
+
+//adding experience
 const experience = {
   icon: ""
 };
