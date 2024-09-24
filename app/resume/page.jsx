@@ -160,11 +160,9 @@ const skills = {
 
 const ResumePage = () => {
   return (
-    <section>
-      <div className="container mx-auto">
-        resume
-      </div>
-    </section>
+    <motion.div initial={{opacity:0}} animate={{opacity:1}}>
+      
+    </motion.div>
   )
 }
 
