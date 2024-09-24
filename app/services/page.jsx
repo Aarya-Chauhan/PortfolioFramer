@@ -18,7 +18,7 @@ const services = [
   },
   {
     num: '03',
-    title: 'Logo Design',
+    title: 'AI/ML',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaqu.',
     href: ""
   },
