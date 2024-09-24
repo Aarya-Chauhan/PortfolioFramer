@@ -1,7 +1,12 @@
 "use client";
-//adding icons
-import {FaHtml5,FaCss3,FaJs,FaReact,FaFigma,FaNodeJs} from'react-icons/fa';
-import {SiTailwindcss,SiNextdotjs} from'react-icons/si';
+
+import {FaHtml5,FaCss3,FaJs,FaReact,FaFigma,FaNodeJs,} from'react-icons/fa';
+import {SiTailwindcss,SiNextdotjs,SiExpress} from'react-icons/si';
+import {Tabs, TabsContent, TabsList, TabsTrigger} from '@/components/ui/tabs';
+import {Tooltip, TooltipContent, TooltipProvider, TooltipTrigger} from '@/components/ui/tooltip';
+import {ScrollArea} from '@/components/ui/scroll-area';
+import { motion } from 'framer-motion';
+
 
 //about info
 const about={
@@ -24,15 +29,134 @@ const about={
       fieldName: "mail",
       fieldValue: "aaryachauhan11@gmail.com",
     },
+    {
+      fieldName: "nationality",
+      fieldValue: "Indian",
+    },
+    {
+      fieldName: "freelance",
+      fieldValue: "Available",
+    },
+    {
+      fieldName: "Languages",
+      fieldValue: "English, Hindi",
+    },
   ],
 };
 
 
 //adding experience
 const experience = {
-  icon: ""
+  icon: "/assets/resume/badge.svg",
+  title: "My Experience",
+  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis autem minima laborum veniam Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore.",
+  items:[
+    {
+      company: "BranditUp",
+      postion: "Fullstack Developer Intern",
+      duration: "2023 - 2024",
+    },
+    {
+      company: "Mood Indigo IIT Bombay",
+      postion: "Indigo Squad Member",
+      duration: "2022 - 2023",
+    },  
+    {
+      company: "Foxmula",
+      postion: "Web Developer",
+      duration: "Summer 2022",
+    },
+
+  ]
 };
 
+//adding education
+const education = {
+  icon: "/assets/resume/cap.svg",
+  title: "My Education",
+  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis autem minima laborum veniam Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore.",
+  items:[
+    {
+      institution: "State University",
+      degree: "Engineering Degree in Computer Science",
+      duration: "2020 - 2024",
+    },
+    {
+      institution: "Programming Course",
+      degree: "Python Essensials",
+      duration: "2020 - 2021",
+    },
+    {
+      institution: "Online Course Platform",
+      degree: "SQL Certification",
+      duration: "2020",
+    },
+    {
+      institution: "Design Platform",
+      degree: "Responsive Web Design",
+      duration: "2021",
+    },
+    {
+      institution: "Online Course Platform",
+      degree: "Full Stack Web Deelopment Bootcamp",
+      duration: "2021 - 2022",
+    },
+    {
+      institution: "Kaggle Course Platform",
+      degree: "Machine Learning Essentials",
+      duration: "2022 - 2023",
+    },
+    {
+      institution: "Ethical Hacking Academy",
+      degree: "Cyber Security Essentials",
+      duration: "2023",
+    }, 
+  ]
+};
+
+//adding skills
+const skills = {
+  title: "My Skills",
+  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis autem minima laborum veniam Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore.",
+  skillList :[
+    {
+      icon: <FaHtml5 />,
+      name: "html 5",
+    },
+    {
+      icon: <FaCss3 />,
+      name: "CSS 3",
+    },
+    {
+      icon: <FaJs />,
+      name: "Javascript",
+    },
+    {
+      icon: <FaReact />,
+      name: "ReactJS",
+    },
+    {
+      icon: <FaNodeJs />,
+      name: "NodeJS",
+    },
+    {
+      icon: <SiExpress />,
+      name: "ExpressJS",
+    },
+    {
+      icon: <SiTailwindcss />,
+      name: "Tailwind",
+    }, 
+    {
+      icon: <SiNextdotjs />,
+      name: "NextJS",
+    },   
+    {
+      icon: <FaFigma />,
+      name: "Figma",
+    },  
+  ]
+}
 
 const ResumePage = () => {
   return (
