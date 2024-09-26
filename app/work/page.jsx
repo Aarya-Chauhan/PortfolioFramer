@@ -130,7 +130,6 @@ const Work = () => {
               <div className='text-8xl leading-none font-extrabold text-transparent text-outline'>{projects.num}</div>
               <h2>{project.category}</h2>
             </div>
-
           </div>
           <div className='w-full xl:w-[50%]'>slider</div>
         </div>
