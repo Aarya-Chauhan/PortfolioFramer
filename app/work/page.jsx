@@ -14,201 +14,88 @@ import WorkSliderBtn from '@/components/WorkSliderBtn';
 const projects = [
   {
     num: '01',
-    category: 'frontend',
-    title: 'project 1',
-    description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, animi.',
+    category: 'Frontend',
+    title: 'Rejouice',
+    description:'This is a  clone project of the original website of rejouice created using vanilla HTML, CSS & JS.',
     stack:[
       {
-        name: 'html5' ,
+        name: 'html5',
       },
       {
-        name: 'html5' ,
+        name: 'CSS',
       },
       {
-        name: 'html5' ,
-      },
-      {
-        name: 'html5' ,
-      },
-      {
-        name: 'html5' ,
+        name: 'Javascript',
       },
     ],
-    image: '/assets/work/thumb1.png',
-    live:'',
-    github: '',
+    image: '/assets/work/thumb3.png',
+    live:'https://rejouice-clone-blue.vercel.app/',
+    github: 'https://github.com/Aarya-Chauhan/REJOUICE_clone',
   },
   {
     num: '02',
-    category: 'frontend',
-    title: 'project 1',
-    description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, animi.',
+    category: 'UI',
+    title: 'Netflix Clone',
+    description:'Cloned landing page of Netflix.',
     stack:[
       {
         name: 'html5',
       },
       {
-        name: 'html5',
+        name: 'Javascript',
       },
       {
-        name: 'html5',
-      },
-      {
-        name: 'html5',
-      },
-      {
-        name: 'html5',
+        name: 'CSS',
       },
     ],
-    image: '/assets/work/thumb1.png',
-    live:'',
-    github: '',
+    image: '/assets/work/thumb2.png',
+    live:'https://netflix-clone11.vercel.app/',
+    github: 'https://github.com/Aarya-Chauhan/Netflix',
   },
   {
     num: '03',
-    category: 'frontend',
-    title: 'project 1',
-    description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, animi.',
+    category: 'fullstack',
+    title: 'StarWars Fandom',
+    description:'A Startwar Fandom Webapp developed using nextjs and ChakraUI library.',
     stack:[
       {
-        name: 'html5',
+        name: 'NextJS',
       },
       {
-        name: 'html5',
+        name: 'ReactJS',
       },
       {
-        name: 'html5',
-      },
-      {
-        name: 'html5',
-      },
-      {
-        name: 'html5',
+        name: 'ChkraUI',
       },
     ],
-    image: '/assets/work/thumb1.png',
-    live:'',
-    github: '',
+    image: '/assets/work/thumb4.png',
+    live:'https://starwars-fandom.vercel.app/',
+    github: 'https://github.com/Aarya-Chauhan/Star-Wars',
   },
   {
     num: '04',
-    category: 'frontend',
-    title: 'project 1',
-    description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, animi.',
+    category: 'AutoML',
+    title: 'Crystal Ball',
+    description:'Interactive Web-based AutoML application for training machine learning models with minimum effort',
     stack:[
       {
-        name: 'html5',
+        name: 'Python' ,
       },
       {
-        name: 'html5',
+        name: 'Streamlit' ,
       },
       {
-        name: 'html5',
+        name: 'Numpy' ,
       },
       {
-        name: 'html5',
-      },
-      {
-        name: 'html5',
+        name: 'Pandas' ,
       },
     ],
-    image: '/assets/work/thumb1.png',
-    live:'',
-    github: '',
+    image: '/assets/work/thumb1.jpeg',
+    live:'https://github.com/Aarya-Chauhan/Crystall_Ball',
+    github: 'https://github.com/Aarya-Chauhan/Crystall_Ball',
   },
-  {
-    num: '05',
-    category: 'fullstack',
-    title: 'project 2',
-    description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, animi.',
-    stack:[
-      {
-        name: 'MERN' ,
-      },
-      
-    ],
-    image: '/assets/work/thumb1.png',
-    live:'',
-    github: '',
-  },
-  {
-    num: '06',
-    category: 'frontend',
-    title: 'project 1',
-    description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, animi.',
-    stack:[
-      {
-        name: 'html5',
-      },
-      {
-        name: 'html5',
-      },
-      {
-        name: 'html5',
-      },
-      {
-        name: 'html5',
-      },
-      {
-        name: 'html5',
-      },
-    ],
-    image: '/assets/work/thumb1.png',
-    live:'',
-    github: '',
-  },
-  {
-    num: '07',
-    category: 'frontend',
-    title: 'project 1',
-    description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, animi.',
-    stack:[
-      {
-        name: 'html5',
-      },
-      {
-        name: 'html5',
-      },
-      {
-        name: 'html5',
-      },
-      {
-        name: 'html5',
-      },
-      {
-        name: 'html5',
-      },
-    ],
-    image: '/assets/work/thumb1.png',
-    live:'',
-    github: '',
-  },
-  {
-    num: '08',
-    category: 'frontend',
-    title: 'project 1',
-    description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, animi.',
-    stack:[
-      {
-        name: 'html5',
-      },
-      {
-        name: 'html5',
-      },
-      {
-        name: 'html5',
-      },
-      {
-        name: 'html5',
-      },
-      {
-        name: 'html5',
-      },
-    ],
-    image: '/assets/work/thumb1.png',
-    live:'',
-    github: '',
-  },
+ 
 ];
 
 

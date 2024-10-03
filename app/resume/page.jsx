@@ -11,7 +11,7 @@ import { motion } from 'framer-motion';
 //about info
 const about={
   title: 'About Me',
-  description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis autem minima laborum veniam Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore.',
+  description: "I am a software Developer with a solid foundation in both front-end and back-end technologies, With hands-on experience as a FullStack Developer, I am passionate about crafting digital experiences through code.",
   info: [
     {
       fieldName: "Name",
@@ -49,7 +49,7 @@ const about={
 const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
-  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis autem minima laborum veniam Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore.",
+  description: "Refining Expertise, Elevating Skills Across Diverse Technologies.",
   items:[
     {
       company: "BranditUp",
@@ -74,7 +74,7 @@ const experience = {
 const education = {
   icon: "/assets/resume/cap.svg",
   title: "My Education",
-  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis autem minima laborum veniam Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore.",
+  description: "Through a commitment to continuous learning and academic excellence",
   items:[
     {
       institution: "State University",
@@ -117,7 +117,7 @@ const education = {
 //adding skills
 const skills = {
   title: "My Skills",
-  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis autem minima laborum veniam Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore.",
+  description: "Continuously Elevating Expertise Across a Spectrum of Technologies",
   skillList :[
     {
       icon: <FaHtml5 />,

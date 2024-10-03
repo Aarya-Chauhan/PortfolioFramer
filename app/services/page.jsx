@@ -7,26 +7,26 @@ const services = [
   {
     num: '01',
     title: 'Web Development',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaqu.',
-    href: ""
+    description: 'Innovative Websites, Tailored for You.',
+    href: "/contact"
   },
   {
     num: '02',
     title: 'UI/UX Design',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaqu.',
-    href: ""
+    description: 'Designing Intuitive Interfaces for Memorable Experiences.',
+    href: "/contact"
   },
   {
     num: '03',
     title: 'AI/ML',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaqu.',
-    href: ""
+    description: 'Empowering Your Ideas with Intelligent Automation.',
+    href: "/contact"
   },
   {
     num: '04',
     title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaqu.',
-    href: ""
+    description: 'Elevating Your Online Presence, One Search at a Time.',
+    href: "/contact"
   },
 ];
 
