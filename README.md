@@ -1,1 +1,2 @@
-coming updates 
+coming updates    
+updates for next day
