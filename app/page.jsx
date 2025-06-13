@@ -20,7 +20,7 @@ export default function Home() {
               I thrive on transforming complex problems into streamlined, user-friendly experiences.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8 mb-8">
-              <a target="_blank" href="https://drive.google.com/file/d/1J_jyLX9z3gw8POCIT3yO8j97S0Rkjiwu/view?usp=sharing">
+              <a target="_blank" href="https://drive.google.com/file/d/1-ureoRmtouXlZPMNWkKVkLzhlo9R4SBO/view?usp=sharing">
                 <Button
                   variant="outline"
                   size="lg"
